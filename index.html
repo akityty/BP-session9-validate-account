@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function isAccountName(str) {
+        var regexp = /^[a-z0-9_]{6}/;
+        return regexp.test(str);
+    }
+    let a = prompt("nhap account");
+    console.log(isAccountName(a));
+</script>
+</body>
+</html>
